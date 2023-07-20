@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App2.MainPage">
+
+    <StackLayout>
+        <Image Source="mainLogo" Aspect="AspectFit"/>
+
+        <Label HorizontalOptions="Center" FontSize="40" TextColor="#F3D633">South Park</Label>
+        <BoxView   
+                    VerticalOptions="Center"
+                    HorizontalOptions="Center"
+                    HeightRequest="1"
+                    WidthRequest="300"  
+                    Color="Black"></BoxView>
+        <ScrollView>
+            <StackLayout>
+                <Frame BackgroundColor="WhiteSmoke">
+                    <Label>South Park is an American adult animated sitcom created by Trey Parker and Matt Stone and developed by Brian Graden for Comedy Central. The series revolves around four boys—Stan Marsh, Kyle Broflovski, Eric Cartman, and Kenny McCormick—and their exploits in and around the titular Colorado town. South Park became infamous for its profanity and dark, surreal humor that satirizes a substantial amount of subject matter.
+Parker and Stone developed South Park from two animated short films both titled The Spirit of Christmas. The second short became one of the first Internet viral videos, leading to South Park's production. The pilot episode was produced using cutout animation; subsequent episodes have since used computer animation recalling the cutout technique. South Park features a large ensemble cast of recurring characters.
+Since its debut on August 13, 1997, 319 episodes (including television films) of South Park have been broadcast. It debuted with great success, consistently earning the highest ratings of any basic cable program. Subsequent ratings have varied, but it remains one of Comedy Central's highest-rated programs. In August 2021, the series was renewed through 2027, and a series of films was announced for the streaming service Paramount+, the first two of which were released later that year.
+South Park has received critical acclaim, and is included in various publications' lists of greatest television shows. It has received numerous accolades, including five Primetime Emmy Awards and a Peabody Award. A theatrical film, South Park: Bigger, Longer and Uncut, was released in June 1999 to commercial and critical success, garnering an Academy Award nomination. In 2013, TV Guide ranked South Park the tenth Greatest TV Cartoon of All Time.</Label>
+                </Frame>
+                <Label HorizontalOptions="Center" FontSize="40" TextColor="#F3D633">Created by</Label>
+                <BoxView   
+                    VerticalOptions="Center"
+                    HorizontalOptions="Center"
+                    HeightRequest="1"
+                    WidthRequest="300"  
+                    Color="Black"></BoxView>
+                <StackLayout>
+                    <Frame>
+                        <Image Source="creater"/>
+                    </Frame>
+                    <Label>South Park creators Trey Parker (right) and Matt Stone continue to do most of the writing, directing and voice acting on the show</Label>
+                </StackLayout>
+            </StackLayout>
+        </ScrollView>
+        
+    </StackLayout>
+
+</ContentPage>

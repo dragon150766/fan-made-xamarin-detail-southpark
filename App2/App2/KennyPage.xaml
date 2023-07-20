@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App2.KennyPage"
+             IconImageSource="kennyIconre">
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="220" />
+            <RowDefinition />
+        </Grid.RowDefinitions>
+
+        <StackLayout Padding="20" BackgroundColor="#FB8744" >
+
+            <Image Source="kenny" WidthRequest="150" HeightRequest="150"/>
+
+            <Label FontSize="27" TextColor="#F3D633" HorizontalOptions="Center">Kenneth "Kenny" McCormick</Label>
+        </StackLayout>
+
+        <ScrollView Grid.Row="1">
+            <StackLayout Padding="20" BackgroundColor="WhiteSmoke">
+                <StackLayout BackgroundColor="#F56E21" >
+                    <ScrollView Orientation="Horizontal">
+                        <StackLayout Orientation="Vertical">
+                            <Label TextColor="White" Padding="3">Gender: Male</Label>
+                            <Label TextColor="White" Padding="3">Age: 9</Label>
+                            <Label TextColor="White" Padding="3">Hair Color: Blond</Label>
+                            <Label TextColor="White" Padding="3">Occupation: Student</Label>
+                            <Label TextColor="White" Padding="3">Grade: 4th Grade</Label>
+                            <Label TextColor="White" Padding="3">Religion: Roman Catholic , Temporary: Blaintologist*</Label>
+                            <Label TextColor="White" Padding="3">Aliases: 	Mysterion, El Pollo Loco*, Princess Kenny, Dennis</Label>
+                            <Label TextColor="White" Padding="3">Father: Stuart McCormick</Label>
+                            <Label TextColor="White" Padding="3">Mother: Mrs. McCormick</Label>
+                            <Label TextColor="White" Padding="3">Brother: Kevin McCormick</Label>
+                            <Label TextColor="White" Padding="3">Sister: Karen McCormick</Label>
+                            <Label TextColor="White" Padding="3">Grandfather: Grandpa McCormick</Label>
+                            <Label TextColor="White" Padding="3">Dog: Garland</Label>
+
+
+                        </StackLayout>
+                    </ScrollView>
+                </StackLayout>
+                <Label FontSize="30" TextColor="#F3D633" HorizontalOptions="Center">About</Label>
+                <BoxView   
+                    VerticalOptions="Center"
+                    HorizontalOptions="Center"
+                    HeightRequest="1"
+                    WidthRequest="600"  
+                    Color="Black"></BoxView>
+                <Frame BackgroundColor="White">
+                    <Label Padding="5">Kenny McCormick is the poor member of the Four Boys. Almost all of the time, Kenny wears a hood that muffles his speech. Kenny being muffled is how he gets away with inappropriate and vulgar speech without having to be bleeped out or censored. Kenny is also shown to enjoy getting high. It is mentioned that he enjoys looking at playboys and sniffing paint. In the episode Major Boobage, Kenny finds out he can get high by huffing cat urine, which is also called “Cheesing.” Kenny becomes addicted to cheesing because whenever he does, he hallucinates. He and other people who have tried cheesing, hallucinates a kingdom of breasts and Taarna, the girl from the 1981 film “Heavy Metal”, that he must fight Kyle’s Dad for. He ends up getting sober until he finds flowers at the end of the episode and sniffs the hell out of them, which caused a buzz and went back to hallucinating that he’s in space with Taarna. In The Ring, Kenny achieves a girlfriend, a 5th grade girlfriend, who has given a blow job to another student. This made Kenny excited and he bought his girlfriend Jonas Brothers tickets to try and get her aroused. The boyband gave Kenny and his girlfriend purity rings so that they won’t have sex before getting married. This turned Kenny very boring and OOC, which his friends attempted to then get his old self back. The boys' plan worked and Kenny had gotten his girlfriend to take him to TGIFridays to his blow job... which led Kenny to inevitably die of syphilis.
+
+Kenny is also very poor. In Starvin’ Marvin, the third grade class is having a canned food drive, and it’s mentioned that the food is donated to him because of his family stuck in poverty. Kenny’s family is usually seen eating frozen waffles, bread sandwiches and pop tarts for their dinner, Kenny’s father says it’s because his wife doesn’t know how to use spices and stuff. Kenny’s parents frequently get drunk and abuse each other, when he was younger Kenny and his brother would laugh, but it’s shown now him and his siblings are annoyed and upset about the fighting. Kenny’s parents are also heavy drug users, they usually spend whatever money they get on marijuana or crack. Kenny’s parents get busted for having a meth lab in The Poor Kid. This leads to Kenny and his brother and sister getting taking away to a foster home, where they only serve agnostic beverages, like Dr. Pepper, because it’s neither root beer or cola. In The City Part of Town Kenny’s house gets turned into a vibrant arts district, called Sodo Sopa, mainly because Kenny’s house was the worst looking part of South Park. When Kenny’s father is upset about it, he yells at Kenny’s younger sister, Kenny decides he wants to do something special for her. Kenny takes up a job at City Wok to earn money. Once Kenny earns enough he buys a doll for his sister. Kenny is shown to care for his sister very much, he uses his superhero persona, Mysterion, to act as her guardian angel.
+
+One more thing about Kenny, he can’t die. In seasons 1-5 Kenny would get killed nearly every episode, he was ran over, burned, stabbed, shot, etc. Stan would yell, “Oh my God, they killed Kenny!” Kyle would reply, “You bastards!” and neither of them would remember the next day. Though in the episode, Kenny Dies, Kenny gets a muscle disease and is taken to the hospital, it seems this is one of the only times his friends care about his life. Kenny passes away at the end. Kenny won’t return till in the episode Ladder to Heaven. Cartman, Stan and Kyle want to get their ticket for a candy spree and they remember Kenny had the ticket when he was alive. They go to see Kenny’s parents to try and retrieve the ticket only to find out Kenny was cremated. They sneak into Kenny’s house at night to take his urn. The boys take the urn back to Cartman’s house, and they open it to find out it’s just ashes and no ticket. When Cartman is alone he mixes the ashes with milk because he thinks it’ll be like chocolate milk. Cartman finds out that Kenny’s spirit is inside him. This lasts for a few weeks, until the boys go to Scotland and when they try to get Kenny’s spirit out him, it travels into a pot roast and then finally Rob Schneider. Kenny returns to his normal self in Red Sleigh Down. Kenny started to die less since then. In the episode Best Friends Forever, Kenny becomes addicted to his PSP game, “Heaven vs Hell.” When he finally reaches level 60, he is purposely ran over by a truck driver. He was murdered to help Heaven in their fight against Hell. Kenny is put on life support and becomes a vegetable, which means he can’t help Heaven. Stan and Kyle are protesting to keep him alive and Cartman is protesting to let him die. Cartman says he should die because it was Kenny’s wish that he told him because Cartman is his BFF (They have matching necklaces). The media is focusing on Kenny until his lawyer finds the last page of Kenny’s will which says he wouldn’t want to be seen on tv in a vegetative state, then they finally let Kenny die. Kenny helps Heaven beat Hell and earns Keanu Reeves statue, which is seen in his room in later episodes. Kenny’s deaths are sort of explained in Coon vs. Coon and Friends. Kenny is cursed because his parents used to go to a cult for free beer. Kenny has the power of not dying, whenever he dies his mother will birth another one of him and he seems to grow in the body he was when he last died. Kenny is one of the kids that have a super power.</Label>
+                </Frame>
+
+
+
+            </StackLayout>
+        </ScrollView>
+    </Grid>
+
+</ContentPage>

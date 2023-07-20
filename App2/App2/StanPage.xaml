@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App2.StanPage"
+             IconImageSource="stanIconre">
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="220" />
+            <RowDefinition />
+        </Grid.RowDefinitions>
+
+        <StackLayout Padding="20" BackgroundColor="#3A57D6" >
+            
+                <Image Source="stan" WidthRequest="150" HeightRequest="150"/>
+            
+            <Label FontSize="30" TextColor="#F3D633" HorizontalOptions="Center">Stanley "Stan" Marsh</Label>
+        </StackLayout>
+        
+        <ScrollView Grid.Row="1">
+            <StackLayout Padding="20" BackgroundColor="WhiteSmoke">
+                <StackLayout BackgroundColor="#A26845" >
+                <ScrollView Orientation="Horizontal">
+                    <StackLayout Orientation="Vertical">
+                        <Label TextColor="White" Padding="3">Gender: Male</Label>
+                        <Label TextColor="White" Padding="3">Age: 10</Label>
+                        <Label TextColor="White" Padding="3">Hair Color: Black</Label>
+                        <Label TextColor="White" Padding="3">Occupation: Student</Label>
+                        <Label TextColor="White" Padding="3">Grade: 4th Grade</Label>
+                        <Label TextColor="White" Padding="3">Religion: Roman Catholic; Temporarily: Atheist, Mormon, Scientologist and Blaintologist</Label>
+                        <Label TextColor="White" Padding="3">Aliases: Ranger Stan Marshwalker, Satan (Stan Marsh), Toolshed, Stan Darsh, The Boy in the Red Poofball Hat</Label>
+                        <Label TextColor="White" Padding="3">Father: Randy Marsh</Label>
+                        <Label TextColor="White" Padding="3">Mother: Sharon Marsh</Label>
+                        <Label TextColor="White" Padding="3">Sister: Shelly Marsh</Label>
+                        <Label TextColor="White" Padding="3">Grandfather: Marvin Marsh</Label>
+                        <Label TextColor="White" Padding="3">Uncle: Jimbo Kern</Label>
+                        <Label TextColor="White" Padding="3">Great-Aunt: Flo Marsh</Label>
+                        <Label TextColor="White" Padding="3">Girlfriend: Wendy Testaburger</Label>
+                    </StackLayout>
+                </ScrollView>
+            </StackLayout>
+                <Label FontSize="30" TextColor="#F3D633" HorizontalOptions="Center">About</Label>
+                <BoxView   
+                    VerticalOptions="Center"
+                    HorizontalOptions="Center"
+                    HeightRequest="1"
+                    WidthRequest="600"  
+                    Color="Black"></BoxView>
+                <Frame BackgroundColor="White">
+                <Label Padding="5">Stanley "Stan" Marsh has always been your comparatively average all-American fourth grader... who happens to live in one of the most fucked up places on Earth. Whenever crazy things are happening in South Park, he and Kyle are there to provide the voice of reason and help resolve the problems, often with a comforting speech or at least some memorable highlights from Star Trek. He has a highly abusive sister named Shelly, a gay dog named "Sparky", and is crazy in love with his longtime girlfriend, Wendy Testaburger. He's also quite good pals with the Super Best Friends, lead by Jesus Christ, and was even entrusted with helping protect the immensely powerful prophet Muhammad for a time.
+
+Like his father, Stan's a member of the Mountain Scouts, an aspect of his life that's cultivated a belief in honesty and integrity, leading him to tell the truth to the Space Police and to nominate John Edward for the 'Biggest Douche in the Universe' award for lying to people. He briefly served as the prophet of the religion/cult, the Church of Scientology, but left upon discovering it was a lie and a scam. He is willing to lie and stretch the truth to suit his own needs in extreme situations, like when Kyle's 9/11 investigation lead him to discover Stan was the kid who shat in the urinal or to avoid trouble when TPing houses or smoking. When traumatized, such as after learning about Mr. Mackey's hoarding disorder, after discovering the secret of Easter, or during the "List" incident, he may care more about moving on than exposing the truth.
+
+He also often champions social and environmental causes, something he can sometimes take too far, and has a soft spot for causes related to animals. Despite his distate for environmentalism, he engaged in a tense stand-off with the Park County Police Department over veal abuses and lead the Sea Shepard to save thousands of whales and dolphins as Captain, causing television ratings to soar but becoming a wanted criminal, and helped a whale to return to his family on the moon. Stan has been noted for his exceptional leadership abilities in times of crisis and high stakes such as these. He has also consistently championed gay rights since discovering his dog Sparky was gay, and helped the animals from Big Gay Al's animal shelter. He does, however, exhibit an occasional fear of snakes.
+
+It has been noted that he has exceptional weaponry skills for a fourth grader, illustrating proficiency with guns and has yielded a number of weapons, including handguns, rifles, flareguns and assault weapons. He has also attended weekly karate lessons with Cartman and Kyle, learning much about "diciprine" as well as self-defense. More curious abilities include a knowledge of how to drive, if assisted by Kenny at the pedals, and the ability to give abortions, which he subsequently taught some mountain lion cubs, according to Cartman anyhow. He also became involved in and made bold attempts to stop the American Civil War and the second American-Canadian War.
+
+Stan's greatest talent may be his athletic abilities, which he is frequently praised for - he is the quarterback on the South Park Cows football team and creates controversy when he's missing at the big game, much to his Uncle Jimbo's worry. He's also on the Baseball Team, the Cows Dodgeball Players, lead the South Park Diggities dance troupe, and famously coached the Park County Pee-Wee Hockey Team, inspiring a generation of children to never play hockey ever again. Like his father, Stan also has musical talent, being a member of two bands - Fingerbang and Moop - as well as being an ace Guitar Hero player and singing a hit song begging people to use hybrid cars.
+
+Stan is not without his faults. He has exhibited poor parenting abilities, with neither Wendy nor Kyle trusting him with an egg, Like the other boys, he can be ignorant and rip on unpopular kids like Butters Stotch or Scott Malkinson maliciously, and his ego can get in the way of his friendships, such as becoming caught up with his Guitar Hero skills or getting carried away with social causes. On at least two known occasions, he ended up jacking it in San Diego, California after promoting such causes in web videos. Not to mention, he's a bit of a cynical asshole, which he only keeps in check with a few swigs day of Jameson Irish Whiskey.
+
+Whenever things are looking their darkest and Stan needs guidance in his life, he knows there is always one voice he can turn to and rely on, wondering... what would Brian Boitano do.</Label>
+            </Frame>
+                
+            
+            
+            </StackLayout>
+      </ScrollView>
+    </Grid>
+    
+    
+</ContentPage>

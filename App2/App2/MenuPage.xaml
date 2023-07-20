@@ -1,0 +1,93 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App2.MenuPage"
+             Title="MenuPage">
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="220" />
+            <RowDefinition />
+        </Grid.RowDefinitions>
+
+        <BoxView Grid.Row="0" Color="Wheat" />
+        <StackLayout
+            Grid.Row="0"
+            Padding="20"
+            HorizontalOptions="Center"
+            VerticalOptions="End">
+            <Image
+                HeightRequest="200"
+                HorizontalOptions="Start"
+                Source="SouthParkLogo"
+                WidthRequest="1000" />
+        </StackLayout>
+
+        <ScrollView Grid.Row="1">
+            <StackLayout
+                Grid.Row="1"
+                Padding="0"
+                BackgroundColor="Black">
+                <Button
+                    x:Name="homeButton"
+                    BackgroundColor="Transparent"
+                    TextColor="White"
+                    HorizontalOptions="Center"
+                    Text="Home" />
+                <BoxView   
+                    VerticalOptions="Center"
+                    HorizontalOptions="Center"
+                    HeightRequest="1"
+                    WidthRequest="600"  
+                    Color="White"></BoxView>
+                <Button
+                    x:Name="charaterButton"
+                    BackgroundColor="Transparent"
+                    TextColor="White"
+                    HorizontalOptions="Center"
+                    Text="Charater-Detail" />
+                <BoxView   
+                    VerticalOptions="Center"
+                    HorizontalOptions="Center"
+                    HeightRequest="1"
+                    WidthRequest="600"  
+                    Color="White"></BoxView>
+                <Button
+                    x:Name="websiteButton"
+                    BackgroundColor="Transparent"
+                    TextColor="White"
+                    HorizontalOptions="Center"
+                    Text="Main-Website" />
+                <BoxView   
+                    VerticalOptions="Center"
+                    HorizontalOptions="Center"
+                    HeightRequest="1"
+                    WidthRequest="600"  
+                    Color="White"></BoxView>
+                
+                <Image Source="backMenu" HorizontalOptions="Center" VerticalOptions="End"/>
+                <BoxView   
+                    VerticalOptions="Center"
+                    HorizontalOptions="Center"
+                    HeightRequest="1"
+                    WidthRequest="600"  
+                    Color="White"></BoxView>
+                <StackLayout Orientation="Horizontal" HorizontalOptions="Center">
+                    <Button x:Name="facebookButton" ImageSource="facebookIcon" CornerRadius="50" HeightRequest="48" WidthRequest="48" BackgroundColor="Transparent"></Button>
+                    <Button x:Name="twitterButton" ImageSource="twitterIcon" CornerRadius="50" HeightRequest="48" WidthRequest="48" BackgroundColor="Transparent"></Button>
+                    <Button x:Name="instagramIcon" ImageSource="instagramIcon" CornerRadius="50" HeightRequest="48" WidthRequest="48" BackgroundColor="Transparent"></Button>
+                    <Button x:Name="discordIcon" ImageSource="discordIcon" CornerRadius="50" HeightRequest="48" WidthRequest="48" BackgroundColor="Transparent"></Button>
+                </StackLayout>
+                <BoxView   
+                    VerticalOptions="Center"
+                    HorizontalOptions="Center"
+                    HeightRequest="1"
+                    WidthRequest="600"  
+                    Color="White"></BoxView>
+            </StackLayout>
+            
+        </ScrollView>
+        
+        
+    </Grid>
+</ContentPage>

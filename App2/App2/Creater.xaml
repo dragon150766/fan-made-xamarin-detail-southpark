@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App2.Creater">
+
+    <Grid BackgroundColor="Black">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="200" />
+            <RowDefinition />
+        </Grid.RowDefinitions>
+        <StackLayout BackgroundColor="WhiteSmoke">
+            
+        </StackLayout>
+        <StackLayout
+            Grid.Row="1"
+            Padding="15"
+            BackgroundColor="Wheat">
+            <Label Text="//Name:" />
+            <Label HorizontalOptions="Center" Text="string:Siripong,Poolnuch" />
+            <Label Text="//Education:" />
+            <Label Text="string:thai nichi institute of technology" />
+            <Label Text="//Year:" />
+            <Label Text="numberic:3-2" />
+            <Label Text="//Sec:" />
+            <Label HorizontalOptions="End" Text="number:3" />
+        </StackLayout>
+
+    </Grid>
+
+</ContentPage>

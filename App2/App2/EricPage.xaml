@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App2.EricPage"
+             IconImageSource="ericIconre">
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="220" />
+            <RowDefinition />
+        </Grid.RowDefinitions>
+
+        <StackLayout Padding="20" BackgroundColor="#3EA2C8" >
+
+            <Image Source="eric" WidthRequest="150" HeightRequest="150"/>
+
+            <Label FontSize="30" TextColor="#F3D633" HorizontalOptions="Center">Eric Theodore Cartman</Label>
+        </StackLayout>
+
+        <ScrollView Grid.Row="1">
+            <StackLayout Padding="20" BackgroundColor="WhiteSmoke">
+                <StackLayout BackgroundColor="#E63535" >
+                    <ScrollView Orientation="Horizontal">
+                        <StackLayout Orientation="Vertical">
+                            <Label TextColor="White" Padding="3">Gender: Male</Label>
+                            <Label TextColor="White" Padding="3">Age: 10</Label>
+                            <Label TextColor="White" Padding="3">Hair Color: Brown</Label>
+                            <Label TextColor="White" Padding="3">Penis Size: 1.2 inches</Label>
+                            <Label TextColor="White" Padding="3">Occupation: Student</Label>
+                            <Label TextColor="White" Padding="3">Grade: 4th Grade</Label>
+                            <Label TextColor="White" Padding="3">Religion: Roman Catholic, Blaintologist (formerly) Judaism (formerly)</Label>
+                            <Label TextColor="White" Padding="3">Aliases: 	A.W.E.S.O.M.-O 4000, Dawg the Hall Monitor, Erica Cartman, The Coon, The Grand Wizard King, Mitch Conner, Mr. Cartmanez, Fatass</Label>
+                            <Label TextColor="White" Padding="3">Father: Jack Tenorman</Label>
+                            <Label TextColor="White" Padding="3">Mother: Liane Cartman</Label>
+                            <Label TextColor="White" Padding="3">Half-brother: Scott Tenorman</Label>
+                            <Label TextColor="White" Padding="3">Grandmother: Mabel Cartman</Label>
+                            <Label TextColor="White" Padding="3">Grandfather: Harold Cartman</Label>
+                            <Label TextColor="White" Padding="3">Aunt: Lisa Cartman</Label>
+                            <Label TextColor="White" Padding="3">Uncle: Uncle Stinky, Howard Cartman</Label>
+                            <Label TextColor="White" Padding="3">Cousin: Alexandra Cartman, Elvin Cartman, Fred Cartman</Label>
+
+                        </StackLayout>
+                    </ScrollView>
+                </StackLayout>
+                <Label FontSize="30" TextColor="#F3D633" HorizontalOptions="Center">About</Label>
+                <BoxView   
+                    VerticalOptions="Center"
+                    HorizontalOptions="Center"
+                    HeightRequest="1"
+                    WidthRequest="600"  
+                    Color="Black"></BoxView>
+                <Frame BackgroundColor="White">
+                    <Label Padding="5">Although his full name is Eric Theodore Cartman, he's usually referred to only by his last name (Cartman). He's one of the main characters in South Park, along with Kyle Broflovski (his frequent rival), Stan Marsh, and Kenny McCormick.
+
+Cartman is the fat, self-centered asshole in the group, often concocting schemes to make money and/or procure Colonel's chicken. He absolutely hates Kyle, despises hippies, and can't stand Family Guy. But he does have a soft spot for Mel Gibson, his stuffed animal Clyde Frog, and cats (especially his own cat, Mr. Kitty).</Label>
+                </Frame>
+
+
+
+            </StackLayout>
+        </ScrollView>
+    </Grid>
+
+</ContentPage>

@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App2.KylePage"
+             IconImageSource="kyleIconre">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="220" />
+            <RowDefinition />
+        </Grid.RowDefinitions>
+
+        <StackLayout Padding="20" BackgroundColor="Green" >
+
+            <Image Source="kyle" WidthRequest="150" HeightRequest="150"/>
+
+            <Label FontSize="30" TextColor="#F3D633" HorizontalOptions="Center">Kyle Broflovski</Label>
+        </StackLayout>
+
+        <ScrollView Grid.Row="1">
+            <StackLayout Padding="20" BackgroundColor="WhiteSmoke">
+                <StackLayout BackgroundColor="#FD7421" >
+                    <ScrollView Orientation="Horizontal">
+                        <StackLayout Orientation="Vertical">
+                            <Label TextColor="White" Padding="3">Gender: Male</Label>
+                            <Label TextColor="White" Padding="3">Age: 9</Label>
+                            <Label TextColor="White" Padding="3">Hair Color: Red/Auburn</Label>
+                            <Label TextColor="White" Padding="3">Occupation: Student</Label>
+                            <Label TextColor="White" Padding="3">Grade: 4th Grade</Label>
+                            <Label TextColor="White" Padding="3">Religion: Judasim, Blainetology (temporarily) Roman Catholic (temporarily)</Label>
+                            <Label TextColor="White" Padding="3">Aliases: 	High Jew Elf King, Paladin Kyle, The Human Kite, Kyley-B, Kyle of the DeVry Institute, Fart Boy</Label>
+                            <Label TextColor="White" Padding="3">Father: Gerald Broflovski</Label>
+                            <Label TextColor="White" Padding="3">Mother: Sheila Broflovski</Label>
+                            <Label TextColor="White" Padding="3">Brother: Ike Broflovski</Label>
+                            <Label TextColor="White" Padding="3">Grandmother: Cleo Broflovski</Label>
+                            <Label TextColor="White" Padding="3">Uncle: Murrey Broflovski</Label>
+                            <Label TextColor="White" Padding="3">Cousin: Kyle Schwartz</Label>
+                            
+                        </StackLayout>
+                    </ScrollView>
+                </StackLayout>
+                <Label FontSize="30" TextColor="#F3D633" HorizontalOptions="Center">About</Label>
+                <BoxView   
+                    VerticalOptions="Center"
+                    HorizontalOptions="Center"
+                    HeightRequest="1"
+                    WidthRequest="600"  
+                    Color="Black"></BoxView>
+                <Frame BackgroundColor="White">
+                    <Label Padding="5">Kyle Broflovski has always been considered one of the most intelligent children in South Park, and whenever crazy things are happening in South Park, Kyle and his super best friend, Stan, are there to provide the voice of reason and help resolve problems, often with a comforting 'gay little speech', something that has become Kyle's trademark amongst his friends... for better or for worse. He has a loving if stern father named Gerald, a local lawyer, and a mother, Sheila, known for her interest in social justice and politics, and of course, there's nobody Kyle cares more about than his little brother, Ike Broflovski -- despite the latter's adoption and the occasional game of 'kick the baby', they care about each other and Kyle will do anything to protect him, even go up against evil Visitors. All members of the Broflovski family are known for their strong moral centers and standing up for what they believe in... though not necessarily always to success. Nonetheless, even when times seem their darkest, Kyle will never back down from what he believes in.
+
+One of the most important aspects of Kyle's character is his Jewish upbringing, something that has influenced him in a number of ways - and something that Eric Cartman will never, ever, let him forget, or live down, for a second. While Kyle has always been quick to defend his religion since he was a small child, he remained ignorant of many Jewish beliefs, customs and values until a faithful Meteor Shower encounter with Moses - since then, he has not only overcome doubts about Judaism but has fully embraced the faith. Kyle has stated that Judaism has taught him honesty, one of his deepest values, and one he frequently puts to practice, never hesitating to reveal and defend the truth, whatever it might be... unless the greater good interferes of course. Nontheless, even when he might get in trouble, whether it's over toliet paper-ing someone's house or smoking behind the school, he's always willing to own up to his own actions and is the first of the boys to insist on the truth.
+
+Kyle has exhibited exceptional skill with computers compared to Cartman, Stan, or Kenny, such as sending out an all-access e-mail during the American-Canadian War, examining public resources in detail to help identify a terrorist named Vladmir Stolfsky, tracking the IP address of the Eavesdropper website operator, and successfully photoshopping a cow and chicken as the Hiroshima bombers. He's also a highly profieicent accountant, something that even Eric Cartman will completely look past when it serves his interests, whether it's running a Chef Aid charity event, a scam slavery/basketball league, or just the Washington Redskins. He's also a skilled and dedicated basketball player, at least whenever he's playing with other short white kids (and Tolkien) and he's not too bad at dodgeball or football, either -- Frank Hammond hasn't seen "a Jew run like [him] since Poland, 1938".Kyle's exhibited degrees of talent in writing, singing, self-conciousness, and science and his other hobbies include playing dreidel and playing with his best friend, Mr. Hankey, the Christmas Poo.
+
+Though he is often the most compassionate of the boys, and is considered one of the most intelligent students in his classroom by many of his peers, Kyle is not without his flaws. He is grossed out by pee and bananas to almost uncontrollable levels and these seem to be his most significant pet peeves, and he can be cheap, often refusing to throw away items he paid good money for, such as real ninja weapons, and displaying supririsng bartering skills with Tuong Lu Kim. Kyle has a notably recurring habit of falling behind on popular trends among his classmates, often resorting to fighting back against them however he can - whether it's not being able to celebrate Christmas, a total lack of interest in Chinpoko Mon toys, being too straight to be 'metrosexual', being unable to sit through 'High School Musical', a friendship with Kip Drordy, or just not enjoying YouTube celebrities playing video games, Kyle always seems to be completely behind the latest trends, alieninating him from his friends, and has developed some degree of social insecurity.
+
+Kyle's health is generally poor in most instances compared to his classmates, and he has been mentioned as a diabetic - he recieved a kidney transplant, suffered from a painful hemmorhoid, contracted HIV, and required the removal of fecal matter and treatment for herpes after taking a zip-line tour... but he was quite difficult to intentionally infect with Chicken Pox, as his parents discovered. He also suffers from a mild form of Gingervitus that makes him a "Daywalker". In addition to these conditions, unbeknownst to most of the town, Kyle was concieved while his parents were in Newark, New Jersey... and Kyle Broflovski becomes angry or outraged, or whenever unruly Jersey folks are near, a startling metamorphisis occurs, as Kyley-B comes out to exact a swift but deadly brand of spray-tan-themed justice...
+
+As a third grader, in the series' earlier seasons, Kyle's intelligence and moral center were depicted significantly less frequently, and he was portrayed as a much more mischievous child with laziness, a fiery temper and a favoritism for fart jokes and comedic, juvenile insults, often with an indifference towards those around him. He and the other boys have done a lot of growing up since joining the fourth grade, and these days, Kyle's generally quite calm and patient with those around him... when Cartman isn't involved, anyhow.
+
+Recently, Kyle has given up on giving his trademark moral speeches, in fear of being hurt or disappearing thanks to PC Principal and his culture.</Label>
+                </Frame>
+
+
+
+            </StackLayout>
+        </ScrollView>
+    </Grid>
+    
+</ContentPage>
